@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2? Family= Roboto & display=swap');
+
+body{
+    background-color:#ddd;
+    font-size: 15px;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    /* text-decoration: line-through; */
+    font-style: italic;
+    /* letter-spacing: 2px; */
+    /* word-spacing: 2; */
+    /* line-height: 10px; */
+    color: #0f141e;
+}
+
+.info-text p {
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-style: initial;
+    color: #86898f;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin: 0px;
+}
+
+.header-1 {
+    border-bottom: blue solid 4px;
+    border-left: blue solid;
+    border-bottom-left-radius: 40px;
+    border-right: blue solid;
+    border-bottom-right-radius: 40px;
+    border-top: blue solid 4px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.header-2 {
+    border-bottom: blue solid 4px;
+    border-left: blue solid;
+    border-bottom-left-radius: 40px;
+    border-right: blue solid;
+    border-bottom-right-radius: 40px;
+    border-top: blue solid 4px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+.header-3 {
+    border-bottom: blue solid 4px;
+    border-left: blue solid;
+    border-bottom-left-radius: 40px;
+    border-right: blue solid;
+    border-bottom-right-radius: 40px;
+    border-top: blue solid 4px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.bg-green {
+    background: #00ff4c;
+}
+
+.bg-yellow {
+    background: #bbff00;
+}
+
+.bg-red {
+    background: #fa0000f6;
+}
+.hcolor-1 {
+    color:yellow
+}
+
+.hcolor-2 {
+    color:red
+}
+
+.hcolor-3 {
+    color:blueviolet
+}
+.container {
+    max-width:  750px;;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+.image {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+.container h2 {
+    margin-left: 20px;
+}
+.container form {
+    margin-left: 20px;
+}
+.header-1 {
+    margin-top: 30px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+.info-text h4 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 10px -7px 14px rgba(0, 0, 0, 25);
+}
+
+.info-text a {
+    margin-left: 10px;
+}
+
