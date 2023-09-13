@@ -122,4 +122,35 @@ body{
 .info-text a {
     margin-left: 10px;
 }
-
+a {
+    color: #0f141e;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+a:hover {
+    color: blueviolet;
+    font-size: small;
+}
+a:active {
+    color: yellowgreen;
+}
+/* a:visited {
+    color: #00ff4c;
+} */
+.btn {
+    background: #B8860B;
+    padding: 15px 20px;
+    margin-top: 5px;
+    color: #FFFAF0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn:hover {
+    opacity: 0.8;
+    color: orangered;
+}
+.linkeffect-1 {
+    margin-top: 30px;
+}
