@@ -117,6 +117,14 @@ body{
     margin-left: 40px;
 }
 
+@media (max-width: 605px) {
+    /* Если ширина экрана будет меньше 500px  */
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
 .info-text h4 {
     margin-left: 10px;
     margin-bottom: 10px;
@@ -235,12 +243,26 @@ a:active {
     display: flex;
 }
 
+@media (max-width: 605px) {
+    .form-row {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
 .form-row .form-group {
     /* display: inline-block; */
     margin-right: 20px;
     width: 50%;
     /* width: calc(50% - 20px); */
 }
+
 
 .form-row .form-group:last-child {
     margin-right: 0;
@@ -266,11 +288,4 @@ a:active {
     font-family: inherit;
 }
 
-@media (max-width: 500px) {
-    /* Если ширина экрана будет меньше 500px  */
-    .box {
-        font-size: 1.5rem;
-        padding: 10px;
-        text-align: center;
-    }
-}
+
