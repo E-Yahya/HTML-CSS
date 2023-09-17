@@ -13,8 +13,8 @@
     <div class="container">
       <div class="info">
         <img src="Images/Lion.jpg" alt="Здесь был лев" class="avatar" />
-        <h1>Яхья Эльмурзаев</h1>
         <div class="info-text">
+        <h1>Яхья Эльмурзаев</h1>
           <p>
             На данный момент времени учусь программировать, и пока-что
             получается
@@ -73,19 +73,22 @@
         </ul>
       </div>
       <footer>
-        <h2>Связаться со мной</h2>
-        <form>
+        <form action="/" class="form">
+          <h2>Связаться со мной</h2>
           <div>
-            <label for="text">Ваше имя</label>
-            <input type="text" id="text" class="message-1" placeholder="Введите имя" />
+            <div class="form-row">
+            <div class="form-group">
+            <label for="text">Ваше имя:</label>
+            <input type="text" id="text" class="form" placeholder="Введите имя" />
           </div>
-          <div>
-            <label for="email">Ваше email</label>
-            <input type="email" id="email" class="message-2" placeholder="Введите email" />
+          <div class="form-group">
+            <label for="email">Ваше email:</label>
+            <input type="email" id="email" placeholder="Введите email" />
           </div>
-          <div>
+        </div>
+      </div>
+          <div class="form-group">
             <label for="message">Ваше сообщение:</label>
-            <br />
             <textarea
               name="message"
               id="message"
